@@ -1,0 +1,4 @@
+8:39:37 PM - compiled /Users/karoantonio/Documents/git/to-the-ocean/js/game.coffee
+8:39:39 PM - compiled /Users/karoantonio/Documents/git/to-the-ocean/js/game.coffee
+8:39:48 PM - compiled /Users/karoantonio/Documents/git/to-the-ocean/js/game.coffee
+8:40:44 PM - compiled /Users/karoantonio/Documents/git/to-the-ocean/js/game.coffee

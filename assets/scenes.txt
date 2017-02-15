@@ -1,0 +1,20 @@
+SCENE -1
+/
+The void.
+END
+
+SCENE 0
+0:points for options?
+this is, like, a description of the scene when you first get here. this is a thing you [click]{'scene':1} << that sends you to a new scene, and if we want a picture in the text like ![platypus] the name of the pic would be 'foot_pic.jpg', the .jpg is implied.... [this]{'scene':2,'hover':'platypus'} has an image show up when you hover over it, where footy is the name of the image. 
+END
+
+SCENE 1
+15:blow the brawniest deer a kiss:the deer blushes shyly and compliments your boots... / -15:try to start a conversation about the U.S. election:the deer is allergic to politics and kicks you in the brain...
+You're at the edge of the woods.
+You wander to the edge of the woods. It's business time. There are a handful of deer grazing thoughtfully, as you get close they all jerk their heads up and stare at you with dead eyes. They stand very still, hungry for leaves. Just staring...
+END
+
+SCENE 2
+/
+THIS IS THE PART WHERE WE TELL A STORY
+END
