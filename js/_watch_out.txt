@@ -1,4 +1,9 @@
-8:39:37 PM - compiled /Users/karoantonio/Documents/git/to-the-ocean/js/game.coffee
-8:39:39 PM - compiled /Users/karoantonio/Documents/git/to-the-ocean/js/game.coffee
-8:39:48 PM - compiled /Users/karoantonio/Documents/git/to-the-ocean/js/game.coffee
-8:40:44 PM - compiled /Users/karoantonio/Documents/git/to-the-ocean/js/game.coffee
+1:16:00 PM - compiled /Users/karoantonio/Documents/git/to-the-ocean/js/game.coffee
+1:16:01 PM - compiled /Users/karoantonio/Documents/git/to-the-ocean/js/game.coffee
+1:16:03 PM - compiled /Users/karoantonio/Documents/git/to-the-ocean/js/game.coffee
+1:16:05 PM - compiled /Users/karoantonio/Documents/git/to-the-ocean/js/game.coffee
+1:16:22 PM - compiled /Users/karoantonio/Documents/git/to-the-ocean/js/game.coffee
+3:36:07 PM - compiled /Users/karoantonio/Documents/git/to-the-ocean/js/game.coffee
+3:36:08 PM - compiled /Users/karoantonio/Documents/git/to-the-ocean/js/game.coffee
+3:36:20 PM - compiled /Users/karoantonio/Documents/git/to-the-ocean/js/game.coffee
+3:36:21 PM - compiled /Users/karoantonio/Documents/git/to-the-ocean/js/game.coffee

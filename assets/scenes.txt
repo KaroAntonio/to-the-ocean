@@ -1,20 +1,71 @@
 SCENE -1
-/
+0:points for options?
 The void.
+
+this is, like, a description of the scene when you first get here. this is a thing you [click]{'scene':1} << that sends you to a new scene, and if we want a picture in the text like ![platypus] the name of the pic would be 'foot_pic.jpg', the .jpg is implied.... [this]{'scene':2,'hover':'platypus'} has an image show up when you hover over it, where footy is the name of the image.
 END
 
 SCENE 0
-0:points for options?
-this is, like, a description of the scene when you first get here. this is a thing you [click]{'scene':1} << that sends you to a new scene, and if we want a picture in the text like ![platypus] the name of the pic would be 'foot_pic.jpg', the .jpg is implied.... [this]{'scene':2,'hover':'platypus'} has an image show up when you hover over it, where footy is the name of the image. 
-END
-
-SCENE 1
-15:blow the brawniest deer a kiss:the deer blushes shyly and compliments your boots... / -15:try to start a conversation about the U.S. election:the deer is allergic to politics and kicks you in the brain...
-You're at the edge of the woods.
-You wander to the edge of the woods. It's business time. There are a handful of deer grazing thoughtfully, as you get close they all jerk their heads up and stare at you with dead eyes. They stand very still, hungry for leaves. Just staring...
-END
-
-SCENE 2
 /
-THIS IS THE PART WHERE WE TELL A STORY
+
+~HOW TO FIND THE OCEAN~
+Commissioned by the former Oceanographer’s Guild 1998
+
+
+[Researcher’s Note]{‘scene’:1000} - How to and How not to engage with this Literature
+[Preface]{‘scene’:2000} - The ethnographic dialogue of water
+[Part 1. Sand]{‘scene’:3000} - In which we identify a lack of ocean
+[Part 2. Horticulture and NaCL]{‘scene’:4000} - In which I take a close look at the relationship between roots and salt and how to not be salty
+[Part 3. The Dangers of Sunscreen]{‘scene’:5000} - This section was necessary to fulfill grant requirements
+[Part 4. Motivations]{‘scene’:6000} - Why do you want to find blue forevers in the first place?
+![waves.gif]
 END
+
+SCENE 1000
+/
+This guide was originally meant to be a guide to navigating the ocean; how to use a paddle, maybe how to devise a clever trap to catch seabirds while on your palm raft with wilson, [how to read clouds,]{‘scene’:1010} how to maintain [soft skin]{‘scene’:1020} while caked in salt.
+But do you even know where the ocean is? [I assume if you’re here that you have no idea.]{‘scene’:1100} 
+END
+
+SCENE 1010
+/
+Clouds are majestic Creatures. Stare long enough into a textureless grey sky and the Ganzfeld effect will bring you to me. 
+END
+
+
+SCENE 1020
+/
+Dermatology on the High Seas
+END
+
+SCENE 1100
+/
+Are you lost in the ocean? Then you have more pressing concerns at hand. In light of ‘The Men Parted the Sea to Devour the Water’ I think this manual could not have come at a more relevant time. 
+END
+
+SCENE 2000
+/
+~PREFACE~
+END
+
+SCENE 3000
+/
+~SAND~
+
+END
+
+SCENE 4000
+/
+~HORTICULTURE AND NaCL~
+END
+
+SCENE 5000
+/
+~THE DANGERS OF SUNSCREEN~
+END
+
+SCENE 6000
+/
+~MOTIVATIONS~
+END
+

@@ -17,8 +17,8 @@ def parse_markup(s):
 	'scene': 'next scene num
 	}	
 	'''
-	txt_pattern = '[^!]\[(\s?\S*\s?)\](\{((?:\s?\S*\s?):(?:\s?\S*\s?),?)*\})*'
-	img_pattern = '!\[(\s?\S*\s?)\](\{((?:\s?\S*\s?):(?:\s?\S*\s?),?)*\})*'
+	txt_pattern = '(?:\A|[^!])\[(\s?[^\[]*\s?)\](\{((?:\s?\S*\s?):(?:\s?\S*\s?),?)*\})*'
+	img_pattern = '!\[(\s?[^\[]*\s?)\](\{((?:\s?\S*\s?):(?:\s?\S*\s?),?)*\})*'
 
 	# type: pattern
 	patterns = {
@@ -66,6 +66,8 @@ def load_scenes(filename):
 	full = ""
 	for line in f:
 		line=line.strip()
+		line = line.replace('\xe2\x80\x99',"'")
+		line = line.replace('\xe2\x80\x98',"'")
 		if line == "END":
 			scenes[ID] = {
 				'id':ID, 
@@ -89,7 +91,7 @@ def load_scenes(filename):
 		if l_i == 2:
 			full = line
 		if l_i > 2:
-			full += "\n" + line
+			full += " <br> " + line
 
 	return scenes
 

@@ -52,8 +52,12 @@
     results = [];
     for (j = 0, len = ref.length; j < len; j++) {
       token = ref[j];
-      token_div = $('<div>');
-      token_div.text(token[token.type]);
+      if (token[token.type] === '<br>') {
+        token_div = $('<br>');
+      } else {
+        token_div = $('<div>');
+        token_div.text(token[token.type]);
+      }
       token_div.css({
         display: 'inline-block',
         paddingRight: 10,
@@ -73,7 +77,7 @@
       }
       if (token.img) {
         token_div.css({
-          content: 'url(assets/imgs/' + token.img + '.jpg)',
+          content: 'url(assets/imgs/' + token.img + ')',
           width: 200,
           height: 'auto'
         });
