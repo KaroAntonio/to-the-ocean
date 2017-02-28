@@ -29,7 +29,21 @@ window.update = (go) ->
 	if not go.paused
 		go.t += 1
 
+add_toc_button = (go,parent) ->
+	toc_button = $('<div>')
+	toc_button.css
+		cursor: 'pointer'
+		paddingTop: 20
+
+	toc_button.appendTo(parent)
+	toc_button.text '~Table of Contents~'
+	toc_button.click () ->
+		show_scene(go,0)
+
 init_scenes = (go) ->
+
+	$('body').css
+		fontFamily: 'monospace'
 
 	go.scene_frame = $('<div>')
 	go.scene_frame.attr
@@ -37,20 +51,21 @@ init_scenes = (go) ->
 
 	go.scene_frame.css
 		paddingLeft: 200
-		paddingTop: 200
+		paddingTop: 80
 		paddingBottom: 200
 		width:go.w - 400
 		fontFamily: 'monospace'
 
 	$('body').append go.scene_frame
-
 	show_scene(go,0)
 	
 show_scene = (go,i) ->
 	# where i is the scene number
 	go.scene_frame.empty()
-
-	for token in go.scenes[i].scene
+	
+	idx = Math.floor(Math.random() * go.scenes[i].length)
+	scene_data = go.scenes[i][idx]
+	for token in scene_data.scene
 		if token[token.type] == '<br>'
 			token_div = $('<br>')
 		else
@@ -68,7 +83,6 @@ show_scene = (go,i) ->
 
 			do(token) ->
 				token_div.click (e) ->
-					console.log token.scene
 					show_scene(go,token.scene)
 
 		if token.img
@@ -78,6 +92,8 @@ show_scene = (go,i) ->
 				height: 'auto'
 
 		go.scene_frame.append token_div
+	
+	add_toc_button(go,go.scene_frame)
 
 init_colors = () ->
 	seed: get_random_color()

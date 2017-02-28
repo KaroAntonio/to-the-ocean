@@ -28,7 +28,7 @@ def parse_markup(s):
 
 	matches = []
 	for t,p in patterns.items():
-		matches += [(t,m) for m in re.finditer(p,s)]
+		matches += [(t.lower(),m) for m in re.finditer(p,s)]
 
 	matches.sort(key=lambda x: x[1].start())
 	tokens = []
@@ -50,6 +50,17 @@ def parse_markup(s):
 
 	return tokens
 
+def add_scene(scenes,ID, full, options):
+	scene = {
+		'id':ID, 
+		'scene':parse_markup(full), 
+		'opts':options
+		}
+	if ID in scenes:
+		scenes[ID] += [scene]
+	else: 
+		scenes[ID] = [scene]
+
 def load_scenes(filename):
 	'''
 	Store all scenes from filename (scenes.txt) into the variable "self.scenes"
@@ -69,13 +80,10 @@ def load_scenes(filename):
 		line = line.replace('\xe2\x80\x99',"'")
 		line = line.replace('\xe2\x80\x98',"'")
 		if line == "END":
-			scenes[ID] = {
-				'id':ID, 
-				'scene':parse_markup(full), 
-				'opts':options
-				}
+			add_scene(scenes,ID,full,options)
 			full = ""
 			l_i = -1000
+
 		if line.startswith("SCENE"):
 			ID = int(line.split(' ')[1])
 			l_i = 0

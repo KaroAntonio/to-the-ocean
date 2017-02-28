@@ -11,10 +11,9 @@ SCENE 0
 ~HOW TO FIND THE OCEAN~
 Commissioned by the former Oceanographer’s Guild 1998
 
-
 [Researcher’s Note]{‘scene’:1000} - How to and How not to engage with this Literature
 [Preface]{‘scene’:2000} - The ethnographic dialogue of water
-[Part 1. Sand]{‘scene’:3000} - In which we identify a lack of ocean
+[Part 1. Sand]{‘scene’:3000} - In which we identify a lack of Ocean
 [Part 2. Horticulture and NaCL]{‘scene’:4000} - In which I take a close look at the relationship between roots and salt and how to not be salty
 [Part 3. The Dangers of Sunscreen]{‘scene’:5000} - This section was necessary to fulfill grant requirements
 [Part 4. Motivations]{‘scene’:6000} - Why do you want to find blue forevers in the first place?
@@ -23,19 +22,19 @@ END
 
 SCENE 1000
 /
-This guide was originally meant to be a guide to navigating the ocean; how to use a paddle, maybe how to devise a clever trap to catch seabirds while on your palm raft with wilson, [how to read clouds,]{‘scene’:1010} how to maintain [soft skin]{‘scene’:1020} while caked in salt.
-But do you even know where the ocean is? [I assume if you’re here that you have no idea.]{‘scene’:1100} 
+This guide was originally meant to be a navigational one for the Ocean; how to use a paddle, maybe how to devise a clever trap to catch seabirds while on your palm raft with wilson, [how to read clouds,]{‘scene’:1010} how to maintain [soft skin]{‘scene’:1020} while caked in salt.
+But do you even know where the Ocean is? Or what it is? [I assume if you’re here that you have no idea.]{‘scene’:1100} 
 END
 
 SCENE 1010
 /
-Clouds are majestic Creatures. Stare long enough into a textureless grey sky and the Ganzfeld effect will bring you to me. 
+Clouds are majestic creatures. Stare long enough into a textureless grey sky and the Ganzfeld effect will bring you to me. 
 END
 
 
 SCENE 1020
 /
-Dermatology on the High Seas
+~Dermatology on the High Seas~
 END
 
 SCENE 1100
@@ -67,5 +66,172 @@ END
 SCENE 6000
 /
 ~MOTIVATIONS~
+We must assume that you, having picked up a copy of this Guide (perhaps from a local ex-beach dweller, Aquatic Simulation Centre, or puddle-that-once-knew), are indeed a person with an interest in locating large Ocean-like bodies of water. 
+Not to be second guessing you or anything, but to ensure that you are able to properly identify a body of water of this scale and importance, we have included a short questionnaire within this Guide to help you discern with finality that it is indeed the Ocean you are actually searching for! No harm done if what you are looking for is truly a quail’s nest, or maybe some paper towels? (Although, again, not to be second guessing you - but you are heading in the exact opposite direction of the ocean if your goal is a paper towel, and the help you need will not be within the scope of this guide)...
+
+Use a pen and paper to tally your score (pencils will not be accepted). Please answer the following questions as honestly as possible.
+
+[Amateur Oceanographers Ocean Identifying Aptitude Test]{'scene':6001}
+END
+
+SCENE 6001
+/
+~AMATEUR OCEANOGRAPHERS OCEAN IDENTIFYING APTITUDE TEST~
+
+1. What does the thing you’re searching for taste like?
+
+A. Papery and Absorptive (2 points)
+B. Hummus (6 points)
+C. Seaweed, the quiet breeze at night with countless stars above, lightly salted with the regrets of ten thousand sailors, explorers, poets, and scientists lost at seas (10 pts)
+D. A day of hard honest work, and an ice cold beer on a backyard patio with someone who loves you very much (3 points)
+
+[Next Question...]{‘scene’:6002}
+END
+
+SCENE 6002
+/
+2. How would you describe a Hermit Crab in three words or less?
+
+A. Tiny Communists (2 points)
+B. Thrifty Refugees (4 points)
+C. Not an Ocean (6 points)
+D. Tiny Budding Oceanographer (10 points)
+
+[Next Question...]{‘scene’:6003}
+END
+
+SCENE 6003
+/
+3. A caravan of travelling magicians pulls into your town. The oldest of them offers to take you to the Ocean and gestures towards her trailer bedazzled in sea shells. What do you do?
+
+A. Refute her claim of the ocean being able to fit inside of her trailer and call the authorities (1 points)
+B. Pay her the standard rate of 2 gold bullions and enter her lair of mystery and illusion (5 points)
+C. Smile warmly and politely decline, but bring her a hearty soup filled with lentils and vegetables and listen to the stories of her youth for clues in the twilight of the spring carnival (10 points)
+
+[Next Question...]{‘scene’:6004}
+END
+
+SCENE 6004
+/
+4. If you were to locate the Ocean tomorrow, with zero effort on your part, what would you do with it?
+
+A. Breathe beside it slowly ( points)
+B. Drink it, all of it (points)
+C. Set it on fire (points)
+D. Disappear into it with a boat and a compass (points)
+
+[Next Question...]{‘scene’:6005}
+END
+
+SCENE 6005
+/
+5. What type of Ocean are you searching for?
+
+A. A metaphor
+B. A literal object
+C. A Being
+D. A popular tuna brand
+
+[Next Question...]{‘scene’:6006}
+END
+
+SCENE 6006
+/
+6. Who should the ocean belong to?
+
+A. We The People
+B. Land Dwelling Mammals
+C. Aquatic Dwelling Mammals
+D. The Moon
+E. Communists
+
+[Next Question...]{‘scene’:6007}
+END
+
+SCENE 6007
+/
+7. What did the ocean ever do for you?
+
+A. Ay, twas the fierce rolling waves that made me dear old mum the strong and fearless woman she is today on her voyage across to the New World!
+B. My favorite TV character often mentions it just before James Blunt starts playing in the background
+C. It once hid a great secret I needed keeping below its surface
+D. It is, for the time being, a destination I’m seeking - not one that is informing me from the past, but calling to me from the future
+
+[Next Question...]{‘scene’:6008}
+END
+
+SCENE 6008
+/
+8. An Ocean knocks on your door in the middle of the night. You:
+
+A. Regret your decision to buy beachfront property in Florida
+B. Speak to it through an open window with the blinds still drawn and give it words of encouragement
+C. Let it in and help it in any way necessary
+D. Don’t own a door and are confused
+
+[Next Question...]{‘scene’:6009}
+END
+
+SCENE 6009
+/
+9.  When locating an ocean, you need (please select all that apply)
+
+A. A compass and a knife
+B. A notebook and a pencil
+C. A blender and lots of vegetables
+D. The gift of conversation 
+C. A plane and a parachute
+E. Several large cooperative Geese
+F. Paper towels and hand sanitizer
+G. An expert oceanographer
+END
+
+SCENE 6001
+/
+~AMATEUR OCEANOGRAPHERS OCEAN IDENTIFYING APTITUDE TEST~
+
+Erm, this is a bit awkward, but I believe that you may have ended up here by accident. By all accounts, it seems that what you are actually searching for is likely to be found in Aisle 7 of that grocer on the corner you once visited about 3 years ago. Please carefully place this Guide on the floor and resume with your daily schedule.
+
+[Table of Contents]{‘Scene’:0}
+END
+
+
+SCENE 7000
+/
+You have vague recollections of what it felt like to brush your fingers across the surface of the sea that very first day. 
+You stayed by the shoreline every night back then, named the stones on the beach, rubbed the salt into your gums. The sounds of the tide formed words behind your closed eyes - the pages came to your palms in waves. 
+Then, one morning, you were no longer sea-side. The water had disappeared. You still had those waterlogged pages clenched in your fist, ink dripping down to where the sea should, by all intents and purposes, still be swelling. 
+It was the loss of a lover, a confidante, a mother. The deafening silence, the Ocean’s lack.
+You are indescribably pulled TOWARDS.
+
+
+[To the woods near town:]{‘scene’:7001} trees must draw their water from *somewhere*.
+[To the remnants of those pages.]{‘scene’:7002} Link to an image? 
+[To bed.]{‘scene’:7003} You slept fitfully. Perhaps the Ocean made a commotion during its disappearance.
+END
+
+SCENE 7001
+/
+There was a fire in the woods that very night. Or at least we think so. You’ve heard reports of a dull, ochre glow pulsing at the horizon for many hours, its light strengthening to a blinding glare upon closer investigation. The glow seemed unnervingly natural for something so peculiar, as though it had shone at night unnoticed for many years before this particular outburst.
+The next morning the entire forest had disappeared, and the glow with it. How awfully inconvenient that this disappearing act mirrors that of the Ocean just hours before.
+
+You spend several hours pondering the gaping maw that must have swallowed the trees (and their water?)
+Actually, you don’t recall there ever being a forest at all…
+Someone has tied your shoelaces together without you noticing. You faceplant at what was (presumably) once the forest’s edge as you attempt to investigate.
+END
+
+SCENE 7002
+/
+Here, the ashes of pages past
+END
+
+SCENE 7003
+/
+You haven’t the energy to return to your apartment back in town - in fact, you’ve lost all sense of time after having spent so many nights and days at the Ocean’s side, and aren’t even sure that apartment IS your apartment anymore. You lay back down on the ground but sleep doesn’t come.
+Your thoughts turn to:
+
+	A) Your mother. 
+	B) The fact that you’ve actually got a lot of sand in your mouth right now and you’re not sure how it got there.
+C) Where the fuck did the Ocean go? 
 END
 
